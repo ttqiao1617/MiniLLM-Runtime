@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "description": "Long-output and EOS correctness references for v1.0 continuous batching",
+  "cases": [
+    {
+      "case_id": "perf_p8_o128",
+      "kind": "length_controlled_synthetic",
+      "input_ids_path": "inputs/qwen_v09/perf_p8_ids.txt",
+      "requested_new_tokens": 128
+    },
+    {
+      "case_id": "perf_p32_o128",
+      "kind": "length_controlled_synthetic",
+      "input_ids_path": "inputs/qwen_v09/perf_p32_ids.txt",
+      "requested_new_tokens": 128
+    },
+    {
+      "case_id": "perf_p128_o128",
+      "kind": "length_controlled_synthetic",
+      "input_ids_path": "inputs/qwen_v09/perf_p128_ids.txt",
+      "requested_new_tokens": 128
+    },
+    {
+      "case_id": "perf_p256_o128",
+      "kind": "length_controlled_synthetic",
+      "input_ids_path": "inputs/qwen_v09/perf_p256_ids.txt",
+      "requested_new_tokens": 128
+    },
+    {
+      "case_id": "eos_instruction_o16",
+      "kind": "real_chat",
+      "input_ids_path": "inputs/qwen_v09/real_eos_instruction_ids.txt",
+      "requested_new_tokens": 16
+    }
+  ]
+}

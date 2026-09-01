@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "perf_p8_o128",
+      "prompt_length": 8,
+      "requested_new_tokens": 128,
+      "actual_new_tokens": 128,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v10/goldens/perf_p8_o128.json"
+    },
+    {
+      "case_id": "perf_p32_o128",
+      "prompt_length": 32,
+      "requested_new_tokens": 128,
+      "actual_new_tokens": 128,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v10/goldens/perf_p32_o128.json"
+    },
+    {
+      "case_id": "perf_p128_o128",
+      "prompt_length": 128,
+      "requested_new_tokens": 128,
+      "actual_new_tokens": 128,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v10/goldens/perf_p128_o128.json"
+    },
+    {
+      "case_id": "perf_p256_o128",
+      "prompt_length": 256,
+      "requested_new_tokens": 128,
+      "actual_new_tokens": 128,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v10/goldens/perf_p256_o128.json"
+    },
+    {
+      "case_id": "eos_instruction_o16",
+      "prompt_length": 27,
+      "requested_new_tokens": 16,
+      "actual_new_tokens": 2,
+      "stopped_on_eos": true,
+      "golden_path": "inputs/qwen_v10/goldens/eos_instruction_o16.json"
+    }
+  ]
+}

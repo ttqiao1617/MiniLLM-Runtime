@@ -1,0 +1,510 @@
+{
+  "case_id": "scheduler_en",
+  "kind": "real_chat",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "model_path": "/workspace/trtllm_workspace/qwen2.5-0.5b-instruct",
+  "dtype": "float32",
+  "device": "cpu",
+  "input_ids_path": "inputs/qwen_v09/real_scheduler_en_ids.txt",
+  "input_ids": [
+    151644,
+    8948,
+    198,
+    2610,
+    525,
+    264,
+    5942,
+    23576,
+    13,
+    151645,
+    198,
+    151644,
+    872,
+    198,
+    3838,
+    374,
+    279,
+    6672,
+    1948,
+    1681,
+    37852,
+    323,
+    22670,
+    19259,
+    84256,
+    30,
+    151645,
+    198,
+    151644,
+    77091,
+    198
+  ],
+  "attention_mask": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "position_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "prompt_length": 31,
+  "requested_new_tokens": 16,
+  "actual_new_tokens": 16,
+  "generated_ids": [
+    1900,
+    37852,
+    323,
+    22670,
+    19259,
+    84256,
+    525,
+    1378,
+    2155,
+    19827,
+    311,
+    73042,
+    279,
+    5068,
+    315,
+    5662
+  ],
+  "no_cache_generated_ids": [
+    1900,
+    37852,
+    323,
+    22670,
+    19259,
+    84256,
+    525,
+    1378,
+    2155,
+    19827,
+    311,
+    73042,
+    279,
+    5068,
+    315,
+    5662
+  ],
+  "cache_vs_no_cache_match": true,
+  "stopped_on_eos": false,
+  "eos_token_ids": [
+    151643,
+    151645
+  ],
+  "generated_text": "Request scheduling and GPU continuous batching are two different approaches to optimizing the performance of machine",
+  "full_text": "<|im_start|>system\nYou are a systems engineer.<|im_end|>\n<|im_start|>user\nWhat is the difference between request scheduling and GPU continuous batching?<|im_end|>\n<|im_start|>assistant\nRequest scheduling and GPU continuous batching are two different approaches to optimizing the performance of machine",
+  "step_top5": [
+    [
+      {
+        "token_id": 1900,
+        "logit": 20.639211654663086
+      },
+      {
+        "token_id": 641,
+        "logit": 17.548192977905273
+      },
+      {
+        "token_id": 785,
+        "logit": 17.515729904174805
+      },
+      {
+        "token_id": 334,
+        "logit": 16.843191146850586
+      },
+      {
+        "token_id": 35295,
+        "logit": 16.60785675048828
+      }
+    ],
+    [
+      {
+        "token_id": 37852,
+        "logit": 25.786231994628906
+      },
+      {
+        "token_id": 328,
+        "logit": 22.253551483154297
+      },
+      {
+        "token_id": 1331,
+        "logit": 17.314048767089844
+      },
+      {
+        "token_id": 274,
+        "logit": 17.03131103515625
+      },
+      {
+        "token_id": 6222,
+        "logit": 16.040626525878906
+      }
+    ],
+    [
+      {
+        "token_id": 323,
+        "logit": 24.55400848388672
+      },
+      {
+        "token_id": 19257,
+        "logit": 22.180051803588867
+      },
+      {
+        "token_id": 374,
+        "logit": 22.05167007446289
+      },
+      {
+        "token_id": 304,
+        "logit": 20.622943878173828
+      },
+      {
+        "token_id": 17601,
+        "logit": 20.245269775390625
+      }
+    ],
+    [
+      {
+        "token_id": 22670,
+        "logit": 22.93923568725586
+      },
+      {
+        "token_id": 19259,
+        "logit": 17.844024658203125
+      },
+      {
+        "token_id": 7162,
+        "logit": 15.3081636428833
+      },
+      {
+        "token_id": 13940,
+        "logit": 15.30486011505127
+      },
+      {
+        "token_id": 279,
+        "logit": 15.21073055267334
+      }
+    ],
+    [
+      {
+        "token_id": 19259,
+        "logit": 24.75299835205078
+      },
+      {
+        "token_id": 68967,
+        "logit": 20.34347915649414
+      },
+      {
+        "token_id": 320,
+        "logit": 18.044857025146484
+      },
+      {
+        "token_id": 12,
+        "logit": 16.48930549621582
+      },
+      {
+        "token_id": 7162,
+        "logit": 16.286033630371094
+      }
+    ],
+    [
+      {
+        "token_id": 84256,
+        "logit": 25.828643798828125
+      },
+      {
+        "token_id": 7162,
+        "logit": 19.215970993041992
+      },
+      {
+        "token_id": 320,
+        "logit": 16.18300437927246
+      },
+      {
+        "token_id": 16842,
+        "logit": 15.698780059814453
+      },
+      {
+        "token_id": 8692,
+        "logit": 14.732980728149414
+      }
+    ],
+    [
+      {
+        "token_id": 525,
+        "logit": 26.382692337036133
+      },
+      {
+        "token_id": 2176,
+        "logit": 22.272010803222656
+      },
+      {
+        "token_id": 320,
+        "logit": 20.693950653076172
+      },
+      {
+        "token_id": 8683,
+        "logit": 20.650115966796875
+      },
+      {
+        "token_id": 8300,
+        "logit": 20.534683227539062
+      }
+    ],
+    [
+      {
+        "token_id": 1378,
+        "logit": 23.28821563720703
+      },
+      {
+        "token_id": 2176,
+        "logit": 22.58365249633789
+      },
+      {
+        "token_id": 5435,
+        "logit": 20.775001525878906
+      },
+      {
+        "token_id": 2155,
+        "logit": 19.447406768798828
+      },
+      {
+        "token_id": 12538,
+        "logit": 19.180194854736328
+      }
+    ],
+    [
+      {
+        "token_id": 2155,
+        "logit": 22.923004150390625
+      },
+      {
+        "token_id": 12460,
+        "logit": 21.210941314697266
+      },
+      {
+        "token_id": 5435,
+        "logit": 20.388286590576172
+      },
+      {
+        "token_id": 19827,
+        "logit": 20.26712989807129
+      },
+      {
+        "token_id": 2989,
+        "logit": 19.940567016601562
+      }
+    ],
+    [
+      {
+        "token_id": 19827,
+        "logit": 21.134258270263672
+      },
+      {
+        "token_id": 12538,
+        "logit": 20.924701690673828
+      },
+      {
+        "token_id": 18940,
+        "logit": 19.988513946533203
+      },
+      {
+        "token_id": 14830,
+        "logit": 19.095199584960938
+      },
+      {
+        "token_id": 5413,
+        "logit": 18.938335418701172
+      }
+    ],
+    [
+      {
+        "token_id": 311,
+        "logit": 23.616044998168945
+      },
+      {
+        "token_id": 304,
+        "logit": 22.05593490600586
+      },
+      {
+        "token_id": 1483,
+        "logit": 21.27829933166504
+      },
+      {
+        "token_id": 369,
+        "logit": 20.759517669677734
+      },
+      {
+        "token_id": 429,
+        "logit": 20.64962387084961
+      }
+    ],
+    [
+      {
+        "token_id": 73042,
+        "logit": 20.21141815185547
+      },
+      {
+        "token_id": 11589,
+        "logit": 19.998998641967773
+      },
+      {
+        "token_id": 18150,
+        "logit": 19.43926239013672
+      },
+      {
+        "token_id": 37852,
+        "logit": 17.9332275390625
+      },
+      {
+        "token_id": 29436,
+        "logit": 17.647281646728516
+      }
+    ],
+    [
+      {
+        "token_id": 279,
+        "logit": 18.59610366821289
+      },
+      {
+        "token_id": 22670,
+        "logit": 17.70119857788086
+      },
+      {
+        "token_id": 821,
+        "logit": 17.32126235961914
+      },
+      {
+        "token_id": 4938,
+        "logit": 16.746707916259766
+      },
+      {
+        "token_id": 5068,
+        "logit": 16.35109519958496
+      }
+    ],
+    [
+      {
+        "token_id": 5068,
+        "logit": 20.63544273376465
+      },
+      {
+        "token_id": 990,
+        "logit": 19.056169509887695
+      },
+      {
+        "token_id": 11320,
+        "logit": 18.636749267578125
+      },
+      {
+        "token_id": 37852,
+        "logit": 18.18667984008789
+      },
+      {
+        "token_id": 8692,
+        "logit": 18.126277923583984
+      }
+    ],
+    [
+      {
+        "token_id": 315,
+        "logit": 24.715024948120117
+      },
+      {
+        "token_id": 323,
+        "logit": 23.15024185180664
+      },
+      {
+        "token_id": 11,
+        "logit": 18.199596405029297
+      },
+      {
+        "token_id": 25262,
+        "logit": 16.601421356201172
+      },
+      {
+        "token_id": 304,
+        "logit": 16.306949615478516
+      }
+    ],
+    [
+      {
+        "token_id": 5662,
+        "logit": 18.478302001953125
+      },
+      {
+        "token_id": 264,
+        "logit": 17.585355758666992
+      },
+      {
+        "token_id": 5538,
+        "logit": 17.27413558959961
+      },
+      {
+        "token_id": 22670,
+        "logit": 16.817964553833008
+      },
+      {
+        "token_id": 2168,
+        "logit": 16.794784545898438
+      }
+    ]
+  ]
+}

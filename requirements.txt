@@ -1,0 +1,8 @@
+# The TensorRT-LLM release image already provides CUDA, TensorRT and PyTorch.
+accelerate==1.12.0
+huggingface-hub==1.29.0
+numpy==1.26.4
+onnx==1.22.0
+onnxruntime==1.26.0
+safetensors==0.8.0
+transformers==5.16.1

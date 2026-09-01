@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="540" viewBox="0 0 1240 540">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28.0" y="34.0" font-family="Arial, sans-serif" font-size="21" fill="#111827" font-weight="700" text-anchor="start">MiniLLM-RT v1.0 · Continuous-batching benchmark</text>
+<text x="28.0" y="58.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="start">Official run: 20260712-v10-continuous-final-r2</text>
+<text x="78.0" y="94.0" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="700" text-anchor="start">A. Equal-length throughput scaling</text>
+<text x="680.0" y="94.0" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="700" text-anchor="start">B. Mixed/staggered paired throughput change</text>
+<text x="680.0" y="112.0" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" font-weight="400" text-anchor="start">Continuous vs serial; context labels report continuous mean batch and padding</text>
+<line x1="78.0" y1="416.0" x2="578.0" y2="416.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="420.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">0</text>
+<line x1="78.0" y1="357.2" x2="578.0" y2="357.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="361.2" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">100</text>
+<line x1="78.0" y1="298.4" x2="578.0" y2="298.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="302.4" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">200</text>
+<line x1="78.0" y1="239.6" x2="578.0" y2="239.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="243.6" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">300</text>
+<line x1="78.0" y1="180.8" x2="578.0" y2="180.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="184.8" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">400</text>
+<line x1="78.0" y1="122.0" x2="578.0" y2="122.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="126.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">500</text>
+<line x1="78.0" y1="122.0" x2="78.0" y2="416.0" stroke="#4b5563"/>
+<line x1="78.0" y1="416.0" x2="578.0" y2="416.0" stroke="#4b5563"/>
+<text x="28.0" y="269.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle" transform="rotate(-90 28.0 269.0)">Aggregate output tokens/s</text>
+<text x="112.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">1</text>
+<text x="220.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">2</text>
+<text x="328.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">4</text>
+<text x="436.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">8</text>
+<text x="544.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">16</text>
+<text x="328.0" y="462.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="middle">Requests N (max active = min(N, 8))</text>
+<path d="M 112.00 318.71 L 220.00 308.70 L 328.00 306.83 L 436.00 302.13 L 544.00 307.20" fill="none" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.42"/>
+<path d="M 112.00 327.00 L 220.00 321.12 L 328.00 313.06 L 436.00 311.57 L 544.00 313.69" fill="none" stroke="#dc2626" stroke-width="2.8"/>
+<circle cx="112.00" cy="327.00" r="4" fill="#dc2626"/>
+<circle cx="220.00" cy="321.12" r="4" fill="#dc2626"/>
+<circle cx="328.00" cy="313.06" r="4" fill="#dc2626"/>
+<circle cx="436.00" cy="311.57" r="4" fill="#dc2626"/>
+<circle cx="544.00" cy="313.69" r="4" fill="#dc2626"/>
+<path d="M 112.00 346.14 L 220.00 297.83 L 328.00 241.44 L 436.00 202.45 L 544.00 182.74" fill="none" stroke="#16a34a" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.42"/>
+<path d="M 112.00 356.62 L 220.00 313.03 L 328.00 251.77 L 436.00 224.84 L 544.00 218.88" fill="none" stroke="#16a34a" stroke-width="2.8"/>
+<circle cx="112.00" cy="356.62" r="4" fill="#16a34a"/>
+<circle cx="220.00" cy="313.03" r="4" fill="#16a34a"/>
+<circle cx="328.00" cy="251.77" r="4" fill="#16a34a"/>
+<circle cx="436.00" cy="224.84" r="4" fill="#16a34a"/>
+<circle cx="544.00" cy="218.88" r="4" fill="#16a34a"/>
+<text x="112.0" y="345.6" font-family="Arial, sans-serif" font-size="10" fill="#dc2626" font-weight="700" text-anchor="middle">-32.4%</text>
+<text x="220.0" y="302.0" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">+7.2%</text>
+<text x="328.0" y="240.8" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">+57.8%</text>
+<text x="436.0" y="213.8" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">+81.0%</text>
+<text x="544.0" y="207.9" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">+91.4%</text>
+<line x1="680.0" y1="416.0" x2="1200.0" y2="416.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="420.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">-40%</text>
+<line x1="680.0" y1="379.2" x2="1200.0" y2="379.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="383.2" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">-20%</text>
+<line x1="680.0" y1="342.5" x2="1200.0" y2="342.5" stroke="#9ca3af" stroke-width="1.3"/>
+<text x="672.0" y="346.5" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+0%</text>
+<line x1="680.0" y1="305.8" x2="1200.0" y2="305.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="309.8" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+20%</text>
+<line x1="680.0" y1="269.0" x2="1200.0" y2="269.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="273.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+40%</text>
+<line x1="680.0" y1="232.2" x2="1200.0" y2="232.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="236.2" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+60%</text>
+<line x1="680.0" y1="195.5" x2="1200.0" y2="195.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="199.5" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+80%</text>
+<line x1="680.0" y1="158.8" x2="1200.0" y2="158.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="162.8" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+100%</text>
+<line x1="680.0" y1="122.0" x2="1200.0" y2="122.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="672.0" y="126.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">+120%</text>
+<line x1="680.0" y1="122.0" x2="680.0" y2="416.0" stroke="#4b5563"/>
+<text x="625.0" y="269.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle" transform="rotate(-90 625.0 269.0)">Paired median throughput change</text>
+<rect x="711.00" y="342.50" width="62.00" height="43.84" rx="3" fill="#dc2626" opacity="0.88"/>
+<text x="742.0" y="403.3" font-family="Arial, sans-serif" font-size="11" fill="#dc2626" font-weight="700" text-anchor="middle">-23.9%</text>
+<text x="742.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="middle">Mixed A=1</text>
+<text x="742.0" y="457.0" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" font-weight="400" text-anchor="middle">mean B=1.00 · pad=0.0%</text>
+<rect x="843.00" y="233.13" width="62.00" height="109.37" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="874.0" y="225.1" font-family="Arial, sans-serif" font-size="11" fill="#16a34a" font-weight="700" text-anchor="middle">+59.5%</text>
+<text x="874.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="middle">Mixed A=4</text>
+<text x="874.0" y="457.0" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" font-weight="400" text-anchor="middle">mean B=3.44 · pad=51.6%</text>
+<rect x="975.00" y="163.98" width="62.00" height="178.52" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="1006.0" y="156.0" font-family="Arial, sans-serif" font-size="11" fill="#16a34a" font-weight="700" text-anchor="middle">+97.2%</text>
+<text x="1006.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="middle">Mixed A=8</text>
+<text x="1006.0" y="457.0" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" font-weight="400" text-anchor="middle">mean B=5.94 · pad=51.9%</text>
+<rect x="1107.00" y="169.80" width="62.00" height="172.70" rx="3" fill="#16a34a" opacity="0.88"/>
+<text x="1138.0" y="161.8" font-family="Arial, sans-serif" font-size="11" fill="#16a34a" font-weight="700" text-anchor="middle">+94.0%</text>
+<text x="1138.0" y="438.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="600" text-anchor="middle">Staggered A=8</text>
+<text x="1138.0" y="457.0" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" font-weight="400" text-anchor="middle">mean B=5.84 · pad=52.1%</text>
+<line x1="815.0" y1="62" x2="843.0" y2="62" stroke="#dc2626" stroke-width="3"/>
+<text x="850.0" y="66.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="start">Serial scheduler</text>
+<line x1="999.0" y1="62" x2="1027.0" y2="62" stroke="#16a34a" stroke-width="3"/>
+<text x="1034.0" y="66.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="start">Continuous batching</text>
+<text x="28.0" y="516.0" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" font-weight="400" text-anchor="start">Median of 10 measured runs · alternating paired A/B order · dashed=p95 across runs · 1,918 request-level token comparisons exact</text>
+</svg>

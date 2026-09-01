@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "kv_cache_en",
+      "prompt_length": 32,
+      "requested_new_tokens": 16,
+      "actual_new_tokens": 16,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/kv_cache_en.json"
+    },
+    {
+      "case_id": "gqa_zh",
+      "prompt_length": 41,
+      "requested_new_tokens": 16,
+      "actual_new_tokens": 16,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/gqa_zh.json"
+    },
+    {
+      "case_id": "scheduler_en",
+      "prompt_length": 31,
+      "requested_new_tokens": 16,
+      "actual_new_tokens": 16,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/scheduler_en.json"
+    },
+    {
+      "case_id": "short_math",
+      "prompt_length": 27,
+      "requested_new_tokens": 16,
+      "actual_new_tokens": 14,
+      "stopped_on_eos": true,
+      "golden_path": "inputs/qwen_v09/goldens/short_math.json"
+    },
+    {
+      "case_id": "eos_instruction",
+      "prompt_length": 27,
+      "requested_new_tokens": 16,
+      "actual_new_tokens": 2,
+      "stopped_on_eos": true,
+      "golden_path": "inputs/qwen_v09/goldens/eos_instruction.json"
+    },
+    {
+      "case_id": "perf_p8",
+      "prompt_length": 8,
+      "requested_new_tokens": 32,
+      "actual_new_tokens": 32,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/perf_p8.json"
+    },
+    {
+      "case_id": "perf_p32",
+      "prompt_length": 32,
+      "requested_new_tokens": 32,
+      "actual_new_tokens": 32,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/perf_p32.json"
+    },
+    {
+      "case_id": "perf_p128",
+      "prompt_length": 128,
+      "requested_new_tokens": 32,
+      "actual_new_tokens": 32,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/perf_p128.json"
+    },
+    {
+      "case_id": "perf_p256",
+      "prompt_length": 256,
+      "requested_new_tokens": 32,
+      "actual_new_tokens": 32,
+      "stopped_on_eos": false,
+      "golden_path": "inputs/qwen_v09/goldens/perf_p256.json"
+    }
+  ]
+}

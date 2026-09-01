@@ -1,0 +1,52 @@
+name: security
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  python-security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install audit tools
+        run: python -m pip install --disable-pip-version-check bandit pip-audit
+
+      - name: Scan tracked content and Git metadata
+        run: python scripts/security_scan.py
+
+      - name: Static analysis
+        run: python -m bandit -r python -ll
+
+      - name: Audit pinned dependencies
+        run: python -m pip_audit -r requirements.txt --progress-spinner off
+
+      - name: Parse Python and JSON artifacts
+        run: |
+          python -m compileall -q python scripts/security_scan.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          files = list(Path("inputs").rglob("*.json"))
+          for path in files:
+              json.loads(path.read_text(encoding="utf-8"))
+          print(f"parsed {len(files)} JSON files")
+          PY

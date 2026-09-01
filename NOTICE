@@ -1,0 +1,7 @@
+MiniLLM-RT
+Copyright 2026 ttqiao1617
+
+This project uses Qwen2.5-0.5B-Instruct as an external test model. The model
+is downloaded separately from Qwen's Hugging Face repository and is licensed
+under the Apache License 2.0. Model weights are not distributed in this
+repository.

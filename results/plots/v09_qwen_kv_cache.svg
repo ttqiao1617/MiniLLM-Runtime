@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="500" viewBox="0 0 1160 500">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="28.0" y="34.0" font-family="Arial, sans-serif" font-size="21" fill="#111827" font-weight="700" text-anchor="start">MiniLLM-RT v0.9 · Qwen2.5-0.5B KV-cache benchmark</text>
+<text x="28.0" y="58.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="start">Official run: 20260711T214518Z-c2070827-qwen-fp16</text>
+<text x="78.0" y="91.0" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="700" text-anchor="start">A. Token-ready TPOT by prompt length</text>
+<text x="650.0" y="91.0" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="700" text-anchor="start">B. Decode latency as history grows (prompt=256)</text>
+<line x1="78.0" y1="404.0" x2="533.0" y2="404.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="408.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">0.0</text>
+<line x1="78.0" y1="345.6" x2="533.0" y2="345.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="349.6" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">4.0</text>
+<line x1="78.0" y1="287.2" x2="533.0" y2="287.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="291.2" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">8.0</text>
+<line x1="78.0" y1="228.8" x2="533.0" y2="228.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="232.8" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">12.0</text>
+<line x1="78.0" y1="170.4" x2="533.0" y2="170.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="174.4" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">16.0</text>
+<line x1="78.0" y1="112.0" x2="533.0" y2="112.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70.0" y="116.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">20.0</text>
+<line x1="78.0" y1="112.0" x2="78.0" y2="404.0" stroke="#4b5563"/>
+<line x1="78.0" y1="404.0" x2="533.0" y2="404.0" stroke="#4b5563"/>
+<text x="28.0" y="258.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle" transform="rotate(-90 28.0 258.0)">TPOT (ms, lower is better)</text>
+<text x="112.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">8</text>
+<text x="241.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">32</text>
+<text x="370.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">128</text>
+<text x="499.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">256</text>
+<text x="305.5" y="449.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="middle">Prompt tokens</text>
+<path d="M 112.00 301.59 L 241.00 284.45 L 370.00 256.33 L 499.00 214.68" fill="none" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.42"/>
+<path d="M 112.00 308.35 L 241.00 305.80 L 370.00 274.31 L 499.00 216.39" fill="none" stroke="#dc2626" stroke-width="2.8"/>
+<circle cx="112.00" cy="308.35" r="4" fill="#dc2626"/>
+<circle cx="241.00" cy="305.80" r="4" fill="#dc2626"/>
+<circle cx="370.00" cy="274.31" r="4" fill="#dc2626"/>
+<circle cx="499.00" cy="216.39" r="4" fill="#dc2626"/>
+<path d="M 112.00 248.97 L 241.00 302.12 L 370.00 313.14 L 499.00 270.57" fill="none" stroke="#16a34a" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.42"/>
+<path d="M 112.00 314.27 L 241.00 314.86 L 370.00 314.47 L 499.00 309.16" fill="none" stroke="#16a34a" stroke-width="2.8"/>
+<circle cx="112.00" cy="314.27" r="4" fill="#16a34a"/>
+<circle cx="241.00" cy="314.86" r="4" fill="#16a34a"/>
+<circle cx="370.00" cy="314.47" r="4" fill="#16a34a"/>
+<circle cx="499.00" cy="309.16" r="4" fill="#16a34a"/>
+<text x="112.0" y="304.3" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">-4.7%</text>
+<text x="241.0" y="304.9" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">-9.0%</text>
+<text x="370.0" y="304.5" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">-31.6%</text>
+<text x="499.0" y="299.2" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" font-weight="700" text-anchor="middle">-49.9%</text>
+<line x1="650.0" y1="404.0" x2="1105.0" y2="404.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="642.0" y="408.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">0.0</text>
+<line x1="650.0" y1="345.6" x2="1105.0" y2="345.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="642.0" y="349.6" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">4.0</text>
+<line x1="650.0" y1="287.2" x2="1105.0" y2="287.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="642.0" y="291.2" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">8.0</text>
+<line x1="650.0" y1="228.8" x2="1105.0" y2="228.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="642.0" y="232.8" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">12.0</text>
+<line x1="650.0" y1="170.4" x2="1105.0" y2="170.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="642.0" y="174.4" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">16.0</text>
+<line x1="650.0" y1="112.0" x2="1105.0" y2="112.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="642.0" y="116.0" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" font-weight="400" text-anchor="end">20.0</text>
+<line x1="650.0" y1="112.0" x2="650.0" y2="404.0" stroke="#4b5563"/>
+<line x1="650.0" y1="404.0" x2="1105.0" y2="404.0" stroke="#4b5563"/>
+<text x="600.0" y="258.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle" transform="rotate(-90 600.0 258.0)">Per-token latency (ms)</text>
+<text x="650.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">257</text>
+<text x="771.3" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">265</text>
+<text x="892.7" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">273</text>
+<text x="1014.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">281</text>
+<text x="1105.0" y="426.0" font-family="Arial, sans-serif" font-size="12" fill="#4b5563" font-weight="400" text-anchor="middle">287</text>
+<text x="877.5" y="449.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="middle">History tokens</text>
+<path d="M 650.00 208.24 L 665.17 214.83 L 680.33 207.83 L 695.50 211.55 L 710.67 206.85 L 725.83 208.97 L 741.00 210.43 L 756.17 214.54 L 771.33 208.85 L 786.50 217.04 L 801.67 208.14 L 816.83 217.24 L 832.00 205.47 L 847.17 212.57 L 862.33 206.30 L 877.50 215.02 L 892.67 205.48 L 907.83 213.39 L 923.00 205.18 L 938.17 212.91 L 953.33 206.07 L 968.50 211.78 L 983.67 207.33 L 998.83 214.82 L 1014.00 205.79 L 1029.17 211.82 L 1044.33 202.14 L 1059.50 216.07 L 1074.67 205.04 L 1089.83 208.48 L 1105.00 203.11" fill="none" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.42"/>
+<path d="M 650.00 216.53 L 665.17 221.84 L 680.33 211.05 L 695.50 221.43 L 710.67 212.51 L 725.83 218.78 L 741.00 214.99 L 756.17 219.39 L 771.33 213.92 L 786.50 222.96 L 801.67 210.31 L 816.83 223.33 L 832.00 214.65 L 847.17 218.16 L 862.33 217.62 L 877.50 219.51 L 892.67 214.31 L 907.83 219.66 L 923.00 208.33 L 938.17 222.58 L 953.33 214.39 L 968.50 220.09 L 983.67 212.23 L 998.83 218.32 L 1014.00 212.28 L 1029.17 218.58 L 1044.33 208.14 L 1059.50 220.57 L 1074.67 211.00 L 1089.83 215.64 L 1105.00 213.40" fill="none" stroke="#dc2626" stroke-width="2.6"/>
+<path d="M 650.00 238.95 L 665.17 244.87 L 680.33 240.56 L 695.50 242.34 L 710.67 238.85 L 725.83 246.02 L 741.00 242.63 L 756.17 235.64 L 771.33 235.35 L 786.50 244.04 L 801.67 243.00 L 816.83 245.44 L 832.00 243.06 L 847.17 241.65 L 862.33 243.17 L 877.50 252.55 L 892.67 257.19 L 907.83 250.10 L 923.00 252.96 L 938.17 267.86 L 953.33 268.73 L 968.50 273.96 L 983.67 302.01 L 998.83 307.03 L 1014.00 307.95 L 1029.17 305.74 L 1044.33 304.66 L 1059.50 305.82 L 1074.67 304.67 L 1089.83 307.91 L 1105.00 307.31" fill="none" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.42"/>
+<path d="M 650.00 307.87 L 665.17 307.28 L 680.33 311.33 L 695.50 307.44 L 710.67 304.92 L 725.83 306.94 L 741.00 308.58 L 756.17 308.87 L 771.33 310.08 L 786.50 312.63 L 801.67 313.17 L 816.83 312.14 L 832.00 312.01 L 847.17 312.59 L 862.33 310.25 L 877.50 310.31 L 892.67 309.05 L 907.83 306.51 L 923.00 311.90 L 938.17 313.27 L 953.33 311.83 L 968.50 312.29 L 983.67 311.53 L 998.83 314.14 L 1014.00 311.28 L 1029.17 310.76 L 1044.33 314.27 L 1059.50 314.88 L 1074.67 313.33 L 1089.83 312.37 L 1105.00 313.17" fill="none" stroke="#16a34a" stroke-width="2.6"/>
+<line x1="774.0" y1="62" x2="802.0" y2="62" stroke="#dc2626" stroke-width="3"/>
+<text x="809.0" y="66.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="start">Full recompute</text>
+<line x1="939.0" y1="62" x2="967.0" y2="62" stroke="#16a34a" stroke-width="3"/>
+<text x="974.0" y="66.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="start">KV cache</text>
+<text x="28.0" y="478.0" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" font-weight="400" text-anchor="start">Median of 10 measured runs · alternating paired A/B order · dashed=p95 across runs · all token comparisons exact</text>
+</svg>

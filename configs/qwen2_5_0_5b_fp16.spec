@@ -1,0 +1,20 @@
+# Qwen2.5-0.5B-Instruct TensorRT deployment contract.
+model_name=qwen2.5-0.5b-instruct
+num_hidden_layers=24
+num_attention_heads=14
+num_kv_heads=2
+head_dim=64
+vocab_size=151936
+model_max_position_embeddings=32768
+engine_max_sequence_length=512
+input_ids_dtype=int64
+attention_mask_dtype=int64
+position_ids_dtype=int64
+logits_dtype=float16
+kv_dtype=float16
+requires_position_ids=true
+eos_token_ids=151645,151643
+pad_token_id=151643
+past_prefix=past_key_values.
+present_prefix=present.
+kv_layout=bhsd

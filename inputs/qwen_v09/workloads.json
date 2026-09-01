@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "model_path": "/workspace/trtllm_workspace/qwen2.5-0.5b-instruct",
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "controlled_lengths": [
+    8,
+    32,
+    128,
+    256
+  ],
+  "cases": [
+    {
+      "case_id": "kv_cache_en",
+      "kind": "real_chat",
+      "system": "You are a helpful assistant.",
+      "user": "Briefly explain what a KV cache does in LLM inference.",
+      "rendered_chat": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nBriefly explain what a KV cache does in LLM inference.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_length": 32,
+      "requested_new_tokens": 16,
+      "input_ids_path": "inputs/qwen_v09/real_kv_cache_en_ids.txt",
+      "input_ids_sha256": "34f177aae8ebb21218b66f9bcf27129d3118fb30c439352bdb7dd3c598e365b2"
+    },
+    {
+      "case_id": "gqa_zh",
+      "kind": "real_chat",
+      "system": "你是一名简洁的 AI 基础设施助手。",
+      "user": "用两句话解释 GQA 为什么可以减少 KV Cache 显存。",
+      "rendered_chat": "<|im_start|>system\n你是一名简洁的 AI 基础设施助手。<|im_end|>\n<|im_start|>user\n用两句话解释 GQA 为什么可以减少 KV Cache 显存。<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_length": 41,
+      "requested_new_tokens": 16,
+      "input_ids_path": "inputs/qwen_v09/real_gqa_zh_ids.txt",
+      "input_ids_sha256": "b8a9e5ae8d5589d16522c3091469f6334204d945a98ee96e773507e2b56a3429"
+    },
+    {
+      "case_id": "scheduler_en",
+      "kind": "real_chat",
+      "system": "You are a systems engineer.",
+      "user": "What is the difference between request scheduling and GPU continuous batching?",
+      "rendered_chat": "<|im_start|>system\nYou are a systems engineer.<|im_end|>\n<|im_start|>user\nWhat is the difference between request scheduling and GPU continuous batching?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_length": 31,
+      "requested_new_tokens": 16,
+      "input_ids_path": "inputs/qwen_v09/real_scheduler_en_ids.txt",
+      "input_ids_sha256": "0498d754c00595567e6564d1003c3984fe7b5650780c2df98b7ffe129e3a508a"
+    },
+    {
+      "case_id": "short_math",
+      "kind": "real_chat",
+      "system": "Answer directly.",
+      "user": "What is 17 multiplied by 19?",
+      "rendered_chat": "<|im_start|>system\nAnswer directly.<|im_end|>\n<|im_start|>user\nWhat is 17 multiplied by 19?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_length": 27,
+      "requested_new_tokens": 16,
+      "input_ids_path": "inputs/qwen_v09/real_short_math_ids.txt",
+      "input_ids_sha256": "109f517f3b8a7b1b34c6c3e72f39f0db38ff61ebd30abfd65c58cf49f9336372"
+    },
+    {
+      "case_id": "eos_instruction",
+      "kind": "real_chat",
+      "system": "Follow the requested output format exactly.",
+      "user": "Reply with only the word OK.",
+      "rendered_chat": "<|im_start|>system\nFollow the requested output format exactly.<|im_end|>\n<|im_start|>user\nReply with only the word OK.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_length": 27,
+      "requested_new_tokens": 16,
+      "input_ids_path": "inputs/qwen_v09/real_eos_instruction_ids.txt",
+      "input_ids_sha256": "a0d2c791303a8016144687b66ffd6dbb6f528a5c00aac0ab155d6ebafe5e0abc"
+    },
+    {
+      "case_id": "perf_p8",
+      "kind": "length_controlled_synthetic",
+      "prompt_length": 8,
+      "requested_new_tokens": 32,
+      "input_ids_path": "inputs/qwen_v09/perf_p8_ids.txt",
+      "input_ids_sha256": "092f4d24d27c4e3f200696ec36a44f1a586a906483880149f0f149eb98002912"
+    },
+    {
+      "case_id": "perf_p32",
+      "kind": "length_controlled_synthetic",
+      "prompt_length": 32,
+      "requested_new_tokens": 32,
+      "input_ids_path": "inputs/qwen_v09/perf_p32_ids.txt",
+      "input_ids_sha256": "bb8c2a9ee3352c1d11c63be1083fe848d77faf22c916f6a01fe196691a5da552"
+    },
+    {
+      "case_id": "perf_p128",
+      "kind": "length_controlled_synthetic",
+      "prompt_length": 128,
+      "requested_new_tokens": 32,
+      "input_ids_path": "inputs/qwen_v09/perf_p128_ids.txt",
+      "input_ids_sha256": "0838b65c845dddfc9476f9d83dfff0a2a309b3517a884f69b840d69aa15fb4fd"
+    },
+    {
+      "case_id": "perf_p256",
+      "kind": "length_controlled_synthetic",
+      "prompt_length": 256,
+      "requested_new_tokens": 32,
+      "input_ids_path": "inputs/qwen_v09/perf_p256_ids.txt",
+      "input_ids_sha256": "f5d21d3b5cadb5c789f33196f2fa4f9ed787c71c8df40f99c1f8385ed3e1c4a3"
+    }
+  ]
+}

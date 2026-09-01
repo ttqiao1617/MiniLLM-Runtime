@@ -1,0 +1,45 @@
+# Build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Downloaded models, exported graphs and engines
+models/
+third_party/
+*.onnx
+*.onnx.data
+*.engine
+*.plan
+*.safetensors
+*.bin
+*.cache
+*.pt
+*.pth
+
+# Generated benchmark data
+results/runs/
+results/raw/
+results/qwen_*/
+*.csv
+*.log
+
+# Local settings and temporary files
+.env
+.env.*
+.idea/
+.vscode/
+tmp/
+notes/private/
+.DS_Store
+Thumbs.db
