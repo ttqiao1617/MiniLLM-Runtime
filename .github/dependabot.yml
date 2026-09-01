@@ -5,6 +5,12 @@ updates:
     schedule:
       interval: monthly
     open-pull-requests-limit: 5
+    ignore:
+      # NumPy 2.x requires a separate CUDA/TensorRT ABI validation cycle.
+      - dependency-name: numpy
+        update-types: ["version-update:semver-major"]
+      # This must be upgraded together with the C++ SDK and its pinned digest.
+      - dependency-name: onnxruntime
 
   - package-ecosystem: github-actions
     directory: "/"
