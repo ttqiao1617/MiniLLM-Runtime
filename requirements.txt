@@ -3,7 +3,7 @@ accelerate==1.14.0
 huggingface-hub==1.29.0
 # Keep NumPy 1.x for compatibility with the validated CUDA/TensorRT Python ABI.
 numpy==1.26.4
-onnx==1.22.0
+onnx==1.23.2
 # Keep the Python package aligned with the C++ SDK downloaded in Dockerfile.
 onnxruntime==1.26.0
 safetensors==0.8.0
