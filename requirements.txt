@@ -1,6 +1,6 @@
 # The TensorRT-LLM release image already provides CUDA, TensorRT and PyTorch.
 accelerate==1.14.0
-huggingface-hub==1.29.0
+huggingface-hub==2.3.0
 # Keep NumPy 1.x for compatibility with the validated CUDA/TensorRT Python ABI.
 numpy==1.26.4
 onnx==1.22.0
